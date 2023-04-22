@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom'
+import '../../home.css';
+
 const Home = () => {
   return (
     <div className='bg bg--home flex'>
