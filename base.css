@@ -349,11 +349,12 @@ a {
         position: absolute;
         top: 0;
         right: 0;
-        height: 100vh;
+        height: 100%;
         flex-direction: column;
         justify-content: space-around;
         z-index: 2;
         padding: 0;
+
     }
 
 }
