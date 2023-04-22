@@ -1,29 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&display=swap');
+
+
 :root {
---clr-glassmorphic: rgba(255, 255, 255, 0.03);
---clr_white: var(--clr_white);
---clr-paragraph-text: var(--clr-text);
---clr-nav-line: rgba(255, 255, 255, 0.541);
---ff_Bellefair: 'Bellefair';
---ff_Barlow-condensed: 'Barlow Condensed';
---clr_white: #ffffff;
---clr_light-sky-blue: #D0D6F9;
---clr_nav-link: #ffffffd5;
---clr_nav-link-hover: rgba(255, 255, 255, 0.349);
---underline-height: .2rem;
---clr_space-blue: rgb(11, 13, 23);
---fs-h1:  calc(5vw + 4.7rem);
---fs-h2: calc(3vw + 4rem) ;
---fs-h3:  calc(2vw + 1rem);
---fs-h4: calc(1vw + 1rem) ;
---fs-h5: calc(1.4vw + .5rem );
---fs-body-text: calc(.9rem + .3vw);
---fs-subheading-1: clamp(1.4rem, 1.4vw + .5rem, 1.75rem );
---fs-subheading-2: clamp(1rem, 1vw + .2rem, 1.2rem );
+    --clr-glassmorphic: rgba(255, 255, 255, 0.03);
+    --clr_white: var(--clr_white);
+    --clr-paragraph-text: var(--clr-text);
+    --clr-nav-line: rgba(255, 255, 255, 0.541);
+    --ff_Bellefair: 'Bellefair';
+    --ff_Barlow-condensed: 'Barlow Condensed';
+    --clr_white: #ffffff;
+    --clr_light-sky-blue: #D0D6F9;
+    --clr_nav-link: #ffffffd5;
+    --clr_nav-link-hover: rgba(255, 255, 255, 0.349);
+    --underline-height: .2rem;
+    --clr_space-blue: rgb(11, 13, 23);
+    --fs-h1: calc(5vw + 4.7rem);
+    --fs-h2: calc(3vw + 4rem);
+    --fs-h3: calc(2vw + 1rem);
+    --fs-h4: calc(1vw + 1rem);
+    --fs-h5: calc(1.4vw + .5rem);
+    --fs-body-text: calc(.9rem + .3vw);
+    --fs-subheading-1: clamp(1.4rem, 1.4vw + .5rem, 1.75rem);
+    --fs-subheading-2: clamp(1rem, 1vw + .2rem, 1.2rem);
 }
 
-html, body, #root {
+html,
+body,
+#root {
     height: 100%;
-    overflow:auto;
+    overflow: auto;
     z-index: -99;
 }
 
@@ -93,7 +98,9 @@ h4 {
     font-weight: 500;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     color: var(--clr_white);
 }
 
@@ -150,6 +157,7 @@ a {
 .capitalize {
     text-transform: capitalize;
 }
+
 /* ------------------- */
 
 /* ------NavBar Styling------- */
@@ -233,7 +241,7 @@ a {
 }
 
 
-.nav_icon-close{
+.nav_icon-close {
     visibility: hidden;
 }
 
@@ -290,6 +298,7 @@ a {
         height: auto;
         width: calc(100%);
     }
+
     .navbar--header .nav__link {
         padding-left: 1rem;
     }
@@ -316,7 +325,7 @@ a {
         left: 0;
     }
 
-    .navbar--header .nav__link::after{
+    .navbar--header .nav__link::after {
         display: none;
     }
 
@@ -325,7 +334,7 @@ a {
         display: inline-block;
         z-index: 3;
     }
-  
+
     .nav_icon-hamburger--hide {
         visibility: hidden;
     }
@@ -348,4 +357,3 @@ a {
     }
 
 }
-

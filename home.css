@@ -58,7 +58,7 @@
         font-size: 1rem;
     }
     .bg--home {
-        background-image: url('data/images/assets/home/background-home-mobile.jpg');
+        background-image: url('/data/images/assets/home/background-home-mobile.jpg');
         background-size: cover;
     }
 }
