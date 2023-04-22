@@ -71,7 +71,7 @@
     }
 
     .crew-card {
-        padding: 0;
+        padding: 0 0 4em  0;
     }
 
     .crew-card__fig-image {
@@ -79,6 +79,7 @@
     }
 
     .crew-card__figcap {
+        flex-direction: column-reverse;
         text-align: center;
         justify-content: flex-start;
         padding: 0 1em;

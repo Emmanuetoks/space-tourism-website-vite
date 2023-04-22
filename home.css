@@ -17,15 +17,17 @@
 
 .main-content--home__button {
     text-transform: uppercase;
-    width: 220px;
-    height: 220px;
+    /* width: 220px; */
+    /* height: 220px; */
+    padding: 4.5em 3em;
     border-radius: 50%;
-    transition-duration: 1000ms;
+    transition-duration: 400ms;
     transition-property: box-shadow;
-    align-self: flex-end;
     border-color: var(--clr_white);
     font-family: var(--ff_Bellefair);
     font-size: 1.5rem;
+    background-color: var(--clr_white);
+    /* text-align: center; */
 }
 
 .main-content--home__button:hover {
@@ -34,6 +36,7 @@
 
 .bg--home {
     background-image: url('/data/images/assets/home/background-home-desktop.jpg');
+    gap: 10vh;
 }
 
 @media (max-width: 1024px) {
@@ -53,10 +56,10 @@
 
 @media (max-width:500px) {
     .main-content--home__button {
-        height: 150px;
-        width: 150px;
-        font-size: 1rem;
+        padding: 3.5em 2em ;
+        font-size: 1.3rem;
     }
+
     .bg--home {
         background-image: url('/data/images/assets/home/background-home-mobile.jpg');
         background-size: cover;

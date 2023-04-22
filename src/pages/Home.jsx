@@ -23,7 +23,7 @@ const Home = () => {
 
         <section className='main-content--home__button-section flex'>
           <Link to={'/destination'}>
-            <button className='main-content--home__button'>explore</button>
+            <div className='main-content--home__button'>explore</div>
           </Link>
         </section>
       </main>
